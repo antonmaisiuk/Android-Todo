@@ -14,6 +14,10 @@ public class Task {
         date = new Date();
     }
 
+    public UUID getId() {
+        return id;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -28,5 +32,9 @@ public class Task {
 
     public void setDone(boolean isChecked) {
         this.done = isChecked;
+    }
+
+    public String getName() {
+        return name;
     }
 }
